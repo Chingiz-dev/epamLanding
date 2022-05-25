@@ -1,0 +1,12 @@
+.text-article {
+  
+  width: 40vw;
+}
+
+.text-article_title {
+  margin-bottom: 15px;
+  font-family: Exo_m;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ff6d6d;
+}

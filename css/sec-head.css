@@ -1,0 +1,37 @@
+.sec-head {
+  height: 100vh;
+  background: url(../img/bg/bgindex.jpg);
+  /* background: rgba(0, 0, 0, 0.3) url(img/bg/bgindex.jpg); */
+  background-position: center center;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  /* background-blend-mode: darken; */
+}
+
+.sec-head_title {
+  margin-bottom: 50px;
+  font-family: Exo_t;
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: normal;
+  margin: 25vh auto 6vh;
+  width: 50%;
+}
+
+.sec-head_button_round {
+  border-radius: 50%;
+  background-color: rgba(50, 57, 105, 0.1);
+}
+.sec-head_button_wrap {
+  margin: 5vh auto 3vh;
+}
+
+.sec-head_button_red {
+  background-color: #ff6d6d;
+  color: white;
+  padding: 15px 50px;
+  border-radius: 5px;
+  font-size: 16px;
+}

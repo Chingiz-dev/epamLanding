@@ -1,0 +1,52 @@
+@import url(sec-head.css);
+@import url(sec-top.css);
+@import url(article.css);
+@font-face{
+	font-family: Exo_m;
+	src: url(../fonts/Exo2Medium.ttf);
+}
+@font-face{
+	font-family: Exo_i;
+	src: url(../fonts/Exo2Italic.ttf);
+}
+@font-face{
+	font-family: Exo_b;
+	src: url(../fonts/Exo2Bold.ttf);
+}
+@font-face{
+	font-family: Exo_r;
+	src: url(../fonts/Exo2Regular.ttf);
+}
+@font-face{
+	font-family: Exo_t;
+	src: url(../fonts/Exo2Thin.ttf);
+}
+*{
+	border: none;
+	margin: 0;
+	padding: 0;	
+	font-family: Exo_m;
+}
+html,body{
+	width: 100%;
+	min-width: 320px;
+	min-height: 480px;
+}
+a,a:hover,a:link{
+	text-decoration: none;
+}
+a{
+	color: #282828;
+	-moz-transition: 0.7s;
+	-ms-transition: 0.7s;
+	-webkit-transition: 0.7s;
+	-o-transition: 0.7s;
+	transition: 0.7s;
+}
+a:hover{
+	color: #ff6d6d;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+  }

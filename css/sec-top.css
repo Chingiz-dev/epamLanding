@@ -1,0 +1,17 @@
+.sec-top {
+  background-color: white;
+  background-image: url(../img/bg/bgintro.jpg);
+  background-position: right;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 160px;
+}
+
+
+.sec-top_wrapper {
+  padding-top: 160px;
+  padding-left: 150px;
+}
