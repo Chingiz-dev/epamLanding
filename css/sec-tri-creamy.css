@@ -12,3 +12,8 @@
   margin: 18vh auto;
   width: 40%;
 }
+
+.sec-tri-creamy__wrapper_feat {
+  display: flex;
+  justify-content: center;
+}
