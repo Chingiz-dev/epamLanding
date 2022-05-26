@@ -10,7 +10,7 @@
   /* background-blend-mode: darken; */
 }
 
-.sec-head_title {
+.sec-head__title {
   margin-bottom: 50px;
   font-family: Exo_t;
   font-size: 60px;
@@ -20,15 +20,16 @@
   width: 50%;
 }
 
-.sec-head_button_round {
+.sec-head__button_round {
   border-radius: 50%;
   background-color: rgba(50, 57, 105, 0.1);
 }
-.sec-head_button_wrap {
+
+.sec-head__button_wrap {
   margin: 5vh auto 3vh;
 }
 
-.sec-head_button_red {
+.sec-head__button_red {
   background-color: #ff6d6d;
   color: white;
   padding: 15px 50px;

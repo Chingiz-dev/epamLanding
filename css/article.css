@@ -1,12 +1,26 @@
 .text-article {
-  
-  width: 40vw;
+  width: 38vw;
 }
 
-.text-article_title {
+.text-article__title {
   margin-bottom: 15px;
   font-family: Exo_m;
   text-transform: uppercase;
-  letter-spacing: 1px;
   color: #ff6d6d;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.text-article__header {
+  font-family: Exo_r;
+  font-size: 40px;
+}
+
+.text-article__header_red {
+  color: #ff6d6d;
+}
+
+.text-article__desc {
+  font-family: Exo_r;
+  margin-top: 35px;
 }

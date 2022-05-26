@@ -1,6 +1,8 @@
 @import url(sec-head.css);
 @import url(sec-top.css);
 @import url(article.css);
+@import url(sec-tri-creamy.css);
+@import url(sec-laptop.css);
 @font-face{
 	font-family: Exo_m;
 	src: url(../fonts/Exo2Medium.ttf);
@@ -47,6 +49,6 @@ a:hover{
 	color: #ff6d6d;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 0;
-  }
+  } */
