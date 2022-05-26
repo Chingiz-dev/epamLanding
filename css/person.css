@@ -1,0 +1,24 @@
+.person {
+text-align: center;
+width: 18%;
+padding: 0 25px;
+}
+.person__img {
+  width: 75px;
+  height: 75px;
+  border-radius: 3px;
+}
+.person__name {
+  color: white;
+  font-size: 19px;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+.person__title {
+  color: #ff6d6d;
+  padding-top: 8px;
+}
+.person__desc {
+  color: white;
+  padding-top: 25px;
+}

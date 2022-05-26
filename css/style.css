@@ -3,6 +3,8 @@
 @import url(article.css);
 @import url(sec-tri-creamy.css);
 @import url(sec-laptop.css);
+@import url(sec-tri-dark.css);
+@import url(person.css);
 @font-face{
 	font-family: Exo_m;
 	src: url(../fonts/Exo2Medium.ttf);
