@@ -43,9 +43,13 @@
     text-transform: uppercase;
 }
 
+.sec-form__input:hover {
+  opacity: .7;
+  transition: opacity ease .5s;
+}
+
 .sec-form__input::placeholder {
   color: white;
-  opacity: 1; /* Firefox */
 }
 
 .sec-form__input:-ms-input-placeholder { /* Internet Explorer 10-11 */
@@ -58,5 +62,33 @@
 
 .sec-form__input_submit {
   background-color: #ff6d6d;
+}
 
+.sec-form__adv {
+  position: relative;
+}
+
+.sec-form__hidden {
+  position: absolute;
+  left: 10px;
+  top: -60px;
+  opacity: 0;
+  transition: opacity ease 1s;
+  color:#FFFFFF;
+}
+
+.sec-form__hidden-span {
+  line-height: 2px;
+  vertical-align: top;
+}
+
+.sec-form__adv:hover
+.sec-form__hidden {
+  opacity: 1;
+  transition: opacity ease .5s;
+}
+
+.sec-form__terms,
+.sec-form__terms a {
+  color: white;
 }
