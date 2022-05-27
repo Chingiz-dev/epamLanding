@@ -5,6 +5,8 @@
 @import url(sec-laptop.css);
 @import url(sec-tri-dark.css);
 @import url(person.css);
+@import url(sec-creamy.css);
+@import url(sec-form.css);
 @font-face{
 	font-family: Exo_m;
 	src: url(../fonts/Exo2Medium.ttf);

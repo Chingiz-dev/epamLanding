@@ -1,0 +1,62 @@
+.sec-form {
+  background: #323969;
+  text-align: center;
+}
+
+.sec-form__title {
+  margin-bottom: 15px;
+  font-family: Exo_m;
+  text-transform: uppercase;
+  color: #ff6d6d;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.sec-form__desc {
+  color: white;
+  font-size: 43px;
+  font-weight: 480;
+}
+
+/* неудержался, украл у Максима */
+.sec-form__input {
+  margin: 0 10px 20px 10px;
+    width: 270px;
+    height: 50px;
+    padding: 10px 30px;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #474d78;
+    border: 2px solid #999cb4;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: Exo_m;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.sec-form__input::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.sec-form__input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+.sec-form__input::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}
+
+.sec-form__input_submit {
+  background-color: #ff6d6d;
+
+}
