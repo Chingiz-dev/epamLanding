@@ -64,11 +64,12 @@
 }
 
 .footer-form__inputs input {
-  vertical-align: top;
+  display: block;
   height: 50px;
 }
 
 .footer-form__inputs {
+  display: flex;
   border: 2px solid #b8b8bf;
   border-radius: 5px;
 }

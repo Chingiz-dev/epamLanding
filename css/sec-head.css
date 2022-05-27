@@ -36,3 +36,9 @@
   border-radius: 5px;
   font-size: 16px;
 }
+
+.sec-head__button_round:hover,
+.sec-head__button_red:hover {
+  cursor: pointer;
+  opacity: .8;
+}

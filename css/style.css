@@ -2,6 +2,7 @@
 @import url(sec-top.css);
 @import url(article.css);
 @import url(sec-tri-creamy.css);
+@import url(feature.css);
 @import url(sec-laptop.css);
 @import url(sec-tri-dark.css);
 @import url(person.css);
@@ -54,6 +55,10 @@ a:hover{
 	color: #ff6d6d;
 }
 
-/* ::-webkit-scrollbar {
+input {
+	outline: none;
+}
+
+::-webkit-scrollbar {
     width: 0;
-  } */
+  }

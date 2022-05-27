@@ -1,16 +1,15 @@
 .sec-top {
   background-color: white;
   background-image: url(../img/bg/bgintro.jpg);
+  background-repeat: no-repeat;
+
   background-position: right;
   -webkit-background-size: auto 100%;
   -moz-background-size: auto 100%;
   -o-background-size: auto 100%;
   background-size: auto 100%;
-  background-repeat: no-repeat;
 }
 
 .sec-top__wrapper {
-  padding-top: 150px;
-  padding-left: 150px;
-  padding-bottom: 180px;
+  padding: 150px 0 180px 150px;
 }

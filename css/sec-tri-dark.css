@@ -8,15 +8,16 @@
   padding-bottom: 120px;
 }
 
-.sec-tri-dark__wrapper_persons {  
+.sec-tri-dark__wrapper_persons {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
 }
 
 .sec-tri-dark__wrapper_logos {
-  padding-top: 100px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
 }

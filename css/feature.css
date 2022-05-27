@@ -1,0 +1,16 @@
+.feature {
+  width: 300px;
+  padding: 0 40px;
+}
+
+.feature__image {
+  margin-bottom: 30px;
+}
+
+.feature__title {
+  margin-bottom: 20px;
+}
+
+.feature__desc {
+  margin-bottom: 50px;
+}

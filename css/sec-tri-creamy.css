@@ -1,5 +1,4 @@
 .sec-tri-creamy {
-  /* height: 100vh; */
   background: url(../img/bg/bgfeatures.jpg);
   background-position: center center;
   overflow: hidden;
@@ -16,4 +15,6 @@
 .sec-tri-creamy__wrapper_feat {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 120px;
 }
